@@ -1,0 +1,33 @@
+{
+  "name": "rubric_mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start-android": "react-native run-android",
+    "start-ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "native-base": "^2.4.2",
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-push-notification": "^3.0.2",
+    "react-navigation": "^1.5.11",
+    "shader": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
